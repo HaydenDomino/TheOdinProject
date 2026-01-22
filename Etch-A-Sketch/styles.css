@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    height: 320px;
+    width: 320px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border: solid;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+
+    border: none;
+    margin: none;
+    padding: none;
+
+    
+}
+
+.square.active {
+    background-color: blue;
+}
